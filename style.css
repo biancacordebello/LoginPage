@@ -1,0 +1,114 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  font-family: sans-serif;
+  background-image: url("assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+  overflow-y:hidden;
+  overflow-x:hidden;
+}
+
+/* TEXTO DE register "register"*/
+#register_text{
+margin-top: 50px;
+margin-bottom: 40px;
+font-size: 30px;
+/* color: #FDD6C5; */
+color: #FDD6C5;
+font-weight: bold;
+font-family: sans-serif;
+}
+
+/*Container"*/
+.register {
+ width: 420px;
+ height: 400px;
+ background:#600e256e;
+ text-align: center;
+ position: fixed;
+ border-radius: 10px;
+ border: 1px solid #600E25;
+ 
+}
+
+/*Local para escrever o EMAIL*/
+.input_email input{
+ width: 340px;
+ height: 30px;
+ color: #FDD6C5;
+ /* color: #600E25; */
+font-family: sans-serif;
+font-size: 17px;
+}
+
+/*Local para escrever Design*/
+input{
+border-left: none;
+border-right:none;
+border-top: none;
+border-bottom: 1px solid;
+border-color: #FDD6C5;
+background: transparent;
+}
+
+input::placeholder{
+  color: #FDD6C5;
+font-family: sans-serif;
+font-size: 17px;
+}
+
+textarea:focus, input:focus{
+box-shadow: 0 0 0 0;
+outline: 0;
+}
+
+/*Local para escrever a SENHA*/
+.input_password input{
+ width: 340px;
+ height: 30px;
+ margin-top: 25px;
+ margin-bottom: 20px;
+ color: #FDD6C5;
+ font-family: sans-serif;
+ font-size: 17px;
+}
+
+/*Botão*/
+.sign_in button{
+ margin-top: 20px;
+ margin-bottom: 35px;
+ background: #FDD6C5;
+ width: 340px;
+ height: 35px;
+ border-radius: 15px;
+ border: none;
+ color: #600E25;
+ font-size: 15px;
+ font-weight: bold;
+}
+
+.sign_in button:hover{
+ background: #fdd6c5c0;
+ cursor: pointer;
+}
+
+.sign_in button:active{
+ background: #fdd6c58c;
+}
+
+/*Registrar*/
+.login a{
+ color: #FDD6C5;
+ font-size: 14px;
+ outline-style:none;
+ cursor: pointer;
+}
+
+.login a:active{
+  color: #fdd6c58c;
+ }
